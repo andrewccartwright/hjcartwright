@@ -7,7 +7,7 @@ const HomePage = (props: {}) => {
     const book: Book = {
         "name": "Diluted Truths\nThe Advocates: Book One",
         "description": "",
-        "url": "/shop/diluted_truths",
+        "url": "/hjcartwright/shop/diluted_truths",
         "cover_image": theAdvocates,
         "img_height": 352,
         "img_width": 220.5
