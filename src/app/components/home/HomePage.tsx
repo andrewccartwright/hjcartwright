@@ -7,9 +7,11 @@ const HomePage = (props: {}) => {
     const book: Book = {
         "name": "Diluted Truths\nThe Advocates: Book One",
         "description": "",
-        "url": "/shop",
-        "cover_image": theAdvocates
-      }
+        "url": "/shop/diluted_truths",
+        "cover_image": theAdvocates,
+        "img_height": 352,
+        "img_width": 220.5
+    }
 
     return (
         <div>

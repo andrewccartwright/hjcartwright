@@ -1,0 +1,18 @@
+#shop-container {
+    margin-top: 3vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+#shop-links-section {
+    width: 80vw;
+    display: flex;
+    justify-content: center;
+}
+
+.book-name {
+    text-align: center;
+    font-family: Montserrat;
+    font-size: 14px;
+}
