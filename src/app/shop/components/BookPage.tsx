@@ -15,11 +15,11 @@ const BookPage = (props: { data: BookPageData }) => {
                     <Image src={data.image} height={data.img_height} width={data.img_width} alt="Book cover image" />
 
                     <div id="links-section">
-                        <a className="page-links" href="https://www.amazon.com/Diluted-Truths-Advocates-Book-1-ebook/dp/B0CV4SSZJK?ref_=ast_author_mpb"><button type="button" className='book-page-buttons btn btn-primary'>Amazon</button></a>
+                        <a className="page-links" href="https://www.amazon.com/Diluted-Truths-Advocates-Book-1-ebook/dp/B0CV4SSZJK?ref_=ast_author_mpb" target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Amazon</button></a>
                     </div>
                 </div>
 
-                <text id="book-summary" dangerouslySetInnerHTML={{__html: data.summary}}></text>
+                <span id="book-summary" dangerouslySetInnerHTML={{__html: data.summary}}></span>
 
             </div>
         </div>
