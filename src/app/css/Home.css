@@ -1,0 +1,37 @@
+.home-section {
+    background-color: white;
+    width: 75vw;
+    /* height: 50vh; */
+}
+
+#new-release-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 20vh;
+}
+
+#new-release-text-container {
+    margin-top: 5vh;
+}
+
+#new-release-title {
+    font-family: Garet;
+}
+
+#book-information {
+    font-family: Montserrat;
+}
+
+#cover-image {
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+}
+
+#welcome-section {
+    display: flex;
+    justify-content: space-around;
+}
+
+#welcome-title {
+    margin-top: 3vh;
+}

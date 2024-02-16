@@ -3,7 +3,7 @@ import aboutMePic from "../assets/images/about_me.png";
 import '../css/About.css';
 
 const About = (props: {}) => {
-    const mult = 0.3
+    const sizeMult = 0.3
 
     return (
         <div id="about-me-container">
@@ -15,8 +15,8 @@ const About = (props: {}) => {
                 <Image 
                     id="about-me-image"
                     src={aboutMePic}
-                    height={1920 * mult}
-                    width={1080 * mult}
+                    height={1920 * sizeMult}
+                    width={1080 * sizeMult}
                     alt="Pictures of H.J. Cartwright" />
 
                 <div id="about-me-text">

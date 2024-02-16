@@ -1,5 +1,6 @@
 body {
   background-color: #EBEEF0;
+  white-space: pre-line;
 }
 
 .btn-primary, .btn-primary:scope, 
