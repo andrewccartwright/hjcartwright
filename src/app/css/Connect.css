@@ -1,0 +1,30 @@
+#connect-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 5vh;
+}
+
+#connect-title {
+    font-family: Garet;
+}
+
+.media-links-section {
+    margin-left: auto;
+    margin-right: auto;
+    width: 30vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.media-links {
+    width: 30vw;
+    margin: 10px;
+    background-color: white;
+    padding: 2vh;
+    font-family: Montserrat;
+}

@@ -1,0 +1,18 @@
+#new-release-section {
+    background-color: white;
+    width: 90vw;
+    height: 50vh;
+}
+
+#new-release-text-container {
+    margin-top: 5vh;
+    margin-left: 10vw;
+}
+
+#new-release-title {
+    font-family: Garet;
+}
+
+#book-information {
+    font-family: Montserrat;
+}
