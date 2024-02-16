@@ -14,10 +14,10 @@ const NewRelease = (props: {book: Book}) => {
                     <strong><p id="book-name">{book.name}</p></strong>
                     <p id="book-description">{book.description}</p>
                 </div>
-                <a id="" href={book.url}><button type="button" className='my-buttons btn btn-primary'>Learn More</button></a>
+                <a id="book-link" href={book.url}><button type="button" className='my-buttons btn btn-primary'>Learn More</button></a>
             </div>
 
-            <Image id='cover-image' src={book.cover_image} height={1173 * sizeMult} width={735 * sizeMult} alt="Cover of Diluted Truths: The Advocates" />
+            <Image id='cover-image' src={book.cover_image} height={book.img_height} width={book.img_width} alt="Cover of Diluted Truths: The Advocates" />
             
         </div>
     )

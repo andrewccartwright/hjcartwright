@@ -1,0 +1,47 @@
+#diluted_truths {
+    background-color: #0E5D63;
+}
+
+.book-page-container {
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+}
+
+.book-panel {
+    margin-top: 2vw;
+    width: 75vw;
+    padding: 6vh 10vw 5vw 6vh;
+    display: flex;
+}
+
+#book-summary {
+    margin-left: 2vw;
+    margin-top: 2vh;
+    color: white;
+    font-family: Montserrat;
+}
+
+#links-section {
+    text-align: center;
+    margin-top: 3vh;
+}
+
+.names {
+    font-family: MontserratBold;
+}
+
+.book-page-buttons {
+    background-color: #EBEEF0;
+    color: #0E5D63;
+}
+
+.book-page-buttons:active, .book-page-buttons:hover, .book-page-buttons:active:hover {
+    background-color: #869CAD;
+    color: #0E5D63;
+}
+
+.page-links, .page-links:active, .page-links:hover, .page-links:active:hover{
+    color: #0E5D63;
+    font-family: Montserrat;
+}
