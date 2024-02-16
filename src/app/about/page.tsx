@@ -17,6 +17,7 @@ const About = (props: {}) => {
                     src={aboutMePic}
                     height={1920 * sizeMult}
                     width={1080 * sizeMult}
+                    priority={true}
                     alt="Pictures of H.J. Cartwright" />
 
                 <div id="about-me-text">
