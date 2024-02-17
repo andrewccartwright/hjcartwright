@@ -41,7 +41,7 @@
     color: #0E5D63;
 }
 
-.page-links, .page-links:active, .page-links:hover, .page-links:active:hover{
+.page-links, .page-links:active, .page-links:visited, .page-links:hover, .page-links:active:hover{
     color: #0E5D63;
     font-family: Montserrat;
 }
