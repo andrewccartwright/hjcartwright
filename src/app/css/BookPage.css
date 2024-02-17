@@ -36,7 +36,7 @@
     color: #0E5D63;
 }
 
-.book-page-buttons:link, .book-page-buttons:visited, .book-page-buttons:hover, .book-page-buttons:active, .book-page-buttons:active:hover {
+.book-page-buttons:link, .book-page-buttons:scope, .book-page-buttons:focus, .book-page-buttons:visited, .book-page-buttons:hover, .book-page-buttons:active, .book-page-buttons:active:hover {
     background-color: #869CAD;
     color: #0E5D63;
 }
