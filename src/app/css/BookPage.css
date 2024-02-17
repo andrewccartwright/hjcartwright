@@ -2,6 +2,14 @@
     background-color: #0E5D63;
 }
 
+#following_fortunes {
+    background-color: #AC90C0;
+}
+
+#following_fortunes_text {
+    font-size: 30px;
+}
+
 .book-page-container {
     width: 100vw;
     display: flex;
@@ -11,7 +19,7 @@
 .book-panel {
     margin-top: 2vw;
     width: 75vw;
-    padding: 6vh 10vw 5vw 6vh;
+    padding: 6vh 1vw 2vw 6vh;
     display: flex;
 }
 
@@ -25,6 +33,23 @@
 #links-section {
     text-align: center;
     margin-top: 3vh;
+}
+
+#media-section {
+    display: flex;
+    width: 100%;
+    margin-top: 3vh;
+    margin-bottom: 3vh;
+    justify-content: center; 
+}
+
+.media-div {
+    overflow: hidden;
+}
+
+.media-image {
+    padding: 1vh;
+    border-radius: 25px;
 }
 
 .names {

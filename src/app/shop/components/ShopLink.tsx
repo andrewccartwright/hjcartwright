@@ -26,10 +26,10 @@ const ShopLink = (props: {book: Book}) => {
     }
 
     return (
-        <div>
+        <div className="shop-link-container">
             <Link href={book.url} onMouseEnter={toggleVisibility} onMouseLeave={toggleVisibility}>
-                <Image className="shop-links" src={book.cover_image} height={book.img_height} width={book.img_width} alt={book.description} priority={true} />
-                <p id="click-me">Click Here</p>
+                <Image className="shop-links" src={book.cover_image} height={book.img_height} width={book.img_width} alt="Book Cover" priority={true} />
+                <p className="click-me">Click Here</p>
                 <p className="book-name">{book.name}</p>
             </Link>
         </div>

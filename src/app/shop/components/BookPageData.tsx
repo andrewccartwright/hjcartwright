@@ -8,7 +8,8 @@ type BookPageData = {
     amazon_url: string,
     bn_url: string,
     playlist_url: string,
-    id: string
+    id: string,
+    media: StaticImageData[]
 }
 
 export default BookPageData;

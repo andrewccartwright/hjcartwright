@@ -2,11 +2,12 @@
 
 import Image from "next/image";
 import BookPageData from "./BookPageData";
-import { useEffect } from "react";
 import '../../css/BookPage.css';
 
 const BookPage = (props: { data: BookPageData }) => {
     const { data } = props;
+
+    const links: string[] = [data.amazon_url, data.bn_url, data.playlist_url]
 
     return (
         <div className="book-page-container">
@@ -15,7 +16,15 @@ const BookPage = (props: { data: BookPageData }) => {
                     <Image src={data.image} height={data.img_height} width={data.img_width} alt="Book cover image" />
 
                     <div id="links-section">
-                        <a className="page-links" href="https://www.amazon.com/Diluted-Truths-Advocates-Book-1-ebook/dp/B0CV4SSZJK?ref_=ast_author_mpb" target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Amazon</button></a>
+                        {
+                            data.amazon_url !== "" && <a className="page-links" href={data.amazon_url} target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Amazon</button></a>
+                        }
+                        {
+                            data.bn_url !== "" && <a className="page-links" href={data.bn_url} target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Barnes & Noble</button></a>
+                        }
+                        {
+                            data.playlist_url !== "" && <a className="page-links" href={data.playlist_url} target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Playlist</button></a>
+                        }
                     </div>
                 </div>
 

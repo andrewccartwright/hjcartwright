@@ -1,24 +1,39 @@
 import Link from "next/link";
-import theAdvocates from "../assets/images/the_advocates.jpg";
+import dilutedTruths from "../assets/images/diluted_truths.jpg";
+import followingFortunes from '../assets/images/following_fortunes.png';
 import Image from "next/image";
 import '../css/Shop.css';
 import ShopLink from "./components/ShopLink";
 import Book from "../components/home/Book";
 
 const Shop = (props: {}) => {
-    const book: Book = {
-        "name": "Diluted Truths\nThe Advocates: Book One",
-        "description": "",
-        "url": "/shop/diluted_truths",
-        "cover_image": theAdvocates,
-        "img_height": 352,
-        "img_width": 220.5
-    }
+    const books: Book[] = [
+        {
+            "name": "Diluted Truths\nThe Advocates: Book One",
+            "tropes": ["7 Year Age Gap", "Dual POV", "Slow Burn", "Sunshine x Grumpy", "Forbidden Romance"],
+            "url": "/shop/diluted_truths",
+            "cover_image": dilutedTruths,
+            "img_height": 352,
+            "img_width": 220.5
+        },
+        {
+            "name": "Following Fortunes\nThe Advocates: Book Two",
+            "tropes": [],
+            "url": "/shop/following_fortunes",
+            "cover_image": followingFortunes,
+            "img_height": 352,
+            "img_width": 220.5
+        }
+    ]
 
     return (
         <div id="shop-container">
             <div id="shop-links-section">
-                <ShopLink book={book} />
+                {
+                    books.map((book, i) => {
+                        return <ShopLink book={book} key={i} />
+                    })
+                }
             </div>
         </div>
         

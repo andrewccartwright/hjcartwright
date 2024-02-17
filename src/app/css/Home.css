@@ -35,3 +35,10 @@
 #welcome-title {
     margin-top: 3vh;
 }
+
+.tropes-list {
+    padding-top: 0;
+    padding-left: 0;
+    margin-top: -2vh;
+    list-style-position: inside;
+}
