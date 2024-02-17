@@ -3,6 +3,7 @@
     width: 100vw;
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
 #shop-links-section {
@@ -11,20 +12,25 @@
     justify-content: center;
 }
 
-.shop-links:active, .shop-links:hover, .shop-links:active:hover {
-    opacity: 0.5;
-    z-index: 1;
+.shop-link-container {
+    padding: 3vh;
 }
 
-#click-me {
+.shop-links:active, .shop-links:hover, .shop-links:active:hover {
+    opacity: 0.5;
+    z-index: 2;
+}
+
+.click-me {
     display: none;
-    color:black;
-    font-size: 36px;
+    color: white;
+    font-size: 30px;
     font-family: Montserrat;
     position: absolute;
-    top: 45%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    width: 220.5px;
+    text-align: center;
+    margin-top: -18vh;
+    z-index: 1;
 }
 
 .book-name {

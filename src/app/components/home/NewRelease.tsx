@@ -12,7 +12,13 @@ const NewRelease = (props: {book: Book}) => {
                 <h2 id="new-release-title">Newest Release</h2>
                 <div id="book-information">
                     <strong><p id="book-name">{book.name}</p></strong>
-                    <p id="book-description">{book.description}</p>
+                    <ul className="tropes-list">
+                    {
+                        book.tropes.map((trope, i) => {
+                            return <li className='trope' key={i}>{trope}</li>
+                        })
+                    }
+                    </ul>                    
                 </div>
                 <a id="book-link" href={book.url}><button type="button" className='my-buttons btn btn-primary'>Learn More</button></a>
             </div>
