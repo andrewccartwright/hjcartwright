@@ -24,3 +24,9 @@
 #error-message {
     color: red;
 }
+
+@media (max-width: 800px) {
+    #message {
+        width: 80vw;
+    }
+}

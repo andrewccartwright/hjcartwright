@@ -1,5 +1,7 @@
 #about-me-container {
     width: 100vw;
+    display: flex;
+    justify-content: center;
 }
 
 #title-container {
@@ -9,28 +11,61 @@
     margin-left: auto;
     margin-right: auto;
     display: flex;
+    position: absolute;
+    align-items: center;
 }
 
 #about-me-section {
-    /* width: 80vw; */
     display: flex;
-    margin-top: -20vh;
-    align-items: center;
     justify-content: center;
-    z-index: 1;
+    align-items: flex-start;
+    margin-top: 5vh;
 }
 
 #about-me-title {
-    margin-left: 35vw;
-    margin-top: 15vh;
+    margin-bottom: 2vh;
     font-size: 30px;
     font-family: Montserrat;
+    text-align: left;
 }
 
 #about-me-text {
     width: 40vw;
-    margin-top: 18vh;
+    margin-top: 15vh;
     margin-left: 2vw;
     font-family: Montserrat;
     text-align: center;
+    z-index: 1;
+}
+
+#about-me-image {
+    width: auto;
+    height: auto;
+    aspect-ratio: 540 / 960;
+    max-width: 30%;
+    z-index: 1;
+}
+
+@media (max-width: 800px) {
+    #title-container {
+        width: 95vw;
+        height: 10vh;
+    }
+
+    #about-me-section {
+        flex-direction: column;
+        align-items: center;
+        margin-top: 1vh;
+    }
+
+    #about-me-text {
+        width: 80vw;
+        margin-left: 0;
+        margin-top: 3vh;
+    }
+/* 
+    #about-me-image {
+        max-width: 200px;
+        max-height: 450px;
+    } */
 }
