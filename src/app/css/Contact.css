@@ -1,0 +1,26 @@
+#contact-form-container {
+    margin-top: 3vh;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: Montserrat;
+}
+
+.form-item {
+    display: flex;
+    text-align: left;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2vh;
+}
+
+#message {
+    width: 40vw;
+    height: 30vh;
+}
+
+#error-message {
+    color: red;
+}

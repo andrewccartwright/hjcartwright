@@ -4,9 +4,7 @@ type Book = {
     "name": string,
     "tropes": string[],
     "url": string,
-    "cover_image": StaticImageData,
-    "img_height": number,
-    "img_width": number
+    "cover_image": StaticImageData
 }
 
 export default Book;

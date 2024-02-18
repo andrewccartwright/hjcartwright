@@ -8,9 +8,7 @@ const HomePage = (props: {}) => {
         "name": "Diluted Truths\nThe Advocates: Book One",
         "tropes": ["7 Year Age Gap", "Dual POV", "Slow Burn", "Sunshine x Grumpy", "Forbidden Romance"],
         "url": "/hjcartwright/shop/diluted_truths",
-        "cover_image": dilutedTruths,
-        "img_height": 352,
-        "img_width": 220.5
+        "cover_image": dilutedTruths
     }
 
     return (

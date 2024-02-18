@@ -12,6 +12,11 @@
     justify-content: center;
 }
 
+.shop-links {
+    width: 220.5px;
+    height: 352px;
+}
+
 .shop-link-container {
     padding: 3vh;
 }

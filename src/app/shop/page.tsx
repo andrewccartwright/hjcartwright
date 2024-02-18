@@ -12,17 +12,13 @@ const Shop = (props: {}) => {
             "name": "Diluted Truths\nThe Advocates: Book One",
             "tropes": ["7 Year Age Gap", "Dual POV", "Slow Burn", "Sunshine x Grumpy", "Forbidden Romance"],
             "url": "/shop/diluted_truths",
-            "cover_image": dilutedTruths,
-            "img_height": 352,
-            "img_width": 220.5
+            "cover_image": dilutedTruths
         },
         {
             "name": "Following Fortunes\nThe Advocates: Book Two",
             "tropes": [],
             "url": "/shop/following_fortunes",
-            "cover_image": followingFortunes,
-            "img_height": 352,
-            "img_width": 220.5
+            "cover_image": followingFortunes
         }
     ]
 
