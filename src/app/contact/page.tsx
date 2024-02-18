@@ -8,13 +8,6 @@ const SERVICE_ID = 'service_r4evqhh';
 const TEMPLATE_ID = 'template_s2426po';
 const PUBLIC_KEY = 'ZLdFSgGEf7xxbsO-7';
 
-const templateParams = {
-    from_name: 'Test',
-    to_name: 'Drew',
-    reply_to: 'pandarocks96@gmail.com',
-    message: 'test message'
-}
-
 const Contact = (props: {}) => {
     const [showError, setShowError] = useState(false);
 
