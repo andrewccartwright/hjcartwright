@@ -28,3 +28,9 @@
     padding: 2vh;
     font-family: Montserrat;
 }
+
+@media (max-width: 800px) {
+    .media-links {
+        width: 70vw;
+    }
+}

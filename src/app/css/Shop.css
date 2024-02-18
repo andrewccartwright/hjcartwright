@@ -13,8 +13,10 @@
 }
 
 .shop-links {
-    width: 220.5px;
-    height: 352px;
+    width: auto;
+    height: auto;
+    aspect-ratio: 735 / 1173;
+    max-width: 220.5px;
 }
 
 .shop-link-container {
@@ -42,4 +44,17 @@
     text-align: center;
     font-family: Montserrat;
     font-size: 14px;
+}
+
+@media (max-width: 800px) {
+    .shop-links {
+        width: 30vw;
+        height: auto;
+    }
+}
+
+@media (max-width: 550px) {
+    .book-name {
+        font-size: 10px;
+    }
 }
