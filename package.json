@@ -11,6 +11,7 @@
     "deploy": "gh-pages -d out -t true"
   },
   "dependencies": {
+    "@emailjs/browser": "^4.1.0",
     "@fortawesome/free-solid-svg-icons": "^6.5.1",
     "@fortawesome/react-fontawesome": "^0.2.0",
     "bootstrap": "^5.3.2",

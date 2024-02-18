@@ -46,3 +46,31 @@
 .nav-links:active, .nav-links:hover, .nav-links:active:hover {
     color: #0E5D63;
 }
+
+@media (max-width: 800px) {
+    #navbar-section {
+        width: 95vw;
+    }
+
+    #nav-links-section {
+        width: 100%;
+    }
+
+    #navbar-title {
+        font-size: 20px;
+    }
+
+    .nav-links {
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 450px) {
+    #navbar-title {
+        font-size: 16px;
+    }
+
+    .nav-links {
+        font-size: 12px;
+    }
+}

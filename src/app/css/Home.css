@@ -25,6 +25,8 @@
 #cover-image {
     margin-top: 3vh;
     margin-bottom: 3vh;
+    width: 220.5px;
+    height: 352px;
 }
 
 #welcome-section {
@@ -41,4 +43,16 @@
     padding-left: 0;
     margin-top: -2vh;
     list-style-position: inside;
+}
+
+
+@media (max-width: 850px) {
+    #new-release-title {
+        font-size: 18px;
+    }
+
+    #cover-image {
+        width: 25vw;
+        height: auto;
+    }
 }

@@ -23,7 +23,7 @@ const NewRelease = (props: {book: Book}) => {
                 <a id="book-link" href={book.url}><button type="button" className='my-buttons btn btn-primary'>Learn More</button></a>
             </div>
 
-            <Image id='cover-image' src={book.cover_image} height={book.img_height} width={book.img_width} alt="Cover of Diluted Truths: The Advocates" />
+            <Image id='cover-image' src={book.cover_image} alt="Cover of Diluted Truths: The Advocates" />
             
         </div>
     )
