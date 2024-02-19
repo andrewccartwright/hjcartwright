@@ -35,12 +35,19 @@
     margin-top: 3vh;
 }
 
+#book-image {
+    width: auto;
+    height: auto;
+    max-width: 220.5px;
+}
+
 #media-section {
     display: flex;
     width: 100%;
     margin-top: 3vh;
     margin-bottom: 3vh;
     justify-content: center; 
+    align-items: center;
 }
 
 .media-div {
@@ -50,6 +57,12 @@
 .media-image {
     padding: 1vh;
     border-radius: 25px;
+    min-width: 50px;
+    height: auto;
+    width: auto;
+    max-height: 215px;
+    max-width: 215px;
+    aspect-ratio: 1 / 1;
 }
 
 .names {
@@ -69,4 +82,27 @@
 .page-links, .page-links:link, .page-links:visited, .page-links:hover, .page-links:active, .page-links:active:hover{
     color: #0E5D63;
     font-family: Montserrat;
+}
+
+@media (max-width: 1200px) {
+    .media-image {
+        width: 15vw;
+    }
+}
+
+@media (max-width: 800px) {
+    .book-panel {
+        flex-direction: column;
+        align-items: flex-start;
+        padding-right: 2vw;
+    }
+
+    #book-image {
+        width: 30vw;
+    }
+
+    #book-summary {
+        font-size: 14px;
+        margin-right: 2vw;
+    }
 }
