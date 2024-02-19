@@ -13,7 +13,7 @@ const BookPage = (props: { data: BookPageData }) => {
         <div className="book-page-container">
             <div id={data.id} className="book-panel">
                 <div id="left-side">
-                    <Image src={data.image} height={data.img_height} width={data.img_width} alt="Book cover image" />
+                    <Image id="book-image" src={data.image} alt="Book cover image" />
 
                     <div id="links-section">
                         {
