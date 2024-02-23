@@ -84,13 +84,13 @@
     font-family: Montserrat;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1400px) {
     .media-image {
         width: 15vw;
     }
 }
 
-@media (max-width: 800px) {
+@media (max-width: 900px) {
     .book-panel {
         flex-direction: column;
         align-items: flex-start;
@@ -104,5 +104,15 @@
     #book-summary {
         font-size: 14px;
         margin-right: 2vw;
+    }
+
+    #media-section {
+        flex-direction: column;
+    }
+    
+    .media-image {
+        width: 80vw;
+        max-width: 300px;
+        max-height: 300px;
     }
 }

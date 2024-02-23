@@ -74,3 +74,10 @@
         font-size: 12px;
     }
 }
+
+@media (max-height: 700px) {
+    #navbar-section {
+        height: 25vh;
+        max-height: 130px;
+    }
+}
