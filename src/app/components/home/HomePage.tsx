@@ -14,7 +14,7 @@ const HomePage = (props: {}) => {
     return (
         <div>
             <NewRelease book={book} />
-            <Welcome />
+            {/* <Welcome /> */}
         </div>
     )
 }

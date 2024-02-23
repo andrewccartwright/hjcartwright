@@ -17,6 +17,10 @@ const medias: Media[] = [
     {
         name: 'Pinterest',
         url: 'https://www.pinterest.com/hjcartwrightauthor/'
+    },
+    {
+        name: 'Facebook',
+        url: 'https://www.facebook.com/profile.php?id=61556437804008'
     }
 ]
 

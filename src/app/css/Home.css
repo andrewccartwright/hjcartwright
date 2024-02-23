@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 20vh;
+    margin-bottom: 25vh;
 }
 
 #new-release-text-container {
@@ -55,7 +55,7 @@
     }
 
     #new-release-text-container {
-        margin-bottom: 5vh;
+        margin-bottom: 10vh;
     }
 
     #new-release-title {
@@ -65,5 +65,11 @@
     #cover-image {
         width: 25vw;
         height: auto;
+    }
+}
+
+@media (max-width: 1250px) {
+    #new-release-section {
+        padding: 5vh;
     }
 }
