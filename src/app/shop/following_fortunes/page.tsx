@@ -9,6 +9,7 @@ const FollowingFortunes = (props: {}) => {
         amazon_url: "",
         bn_url: "",
         playlist_url: "",
+        goodreads_url: "",
         id: "following_fortunes",
         media: []
     }
