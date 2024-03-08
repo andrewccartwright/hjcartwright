@@ -21,6 +21,10 @@ const medias: Media[] = [
     {
         name: 'Facebook',
         url: 'https://www.facebook.com/profile.php?id=61556437804008'
+    },
+    {
+        name: 'Goodreads',
+        url: 'https://www.goodreads.com/author/show/48357303.H_J_Cartwright'
     }
 ]
 
