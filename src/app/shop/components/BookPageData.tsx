@@ -6,7 +6,6 @@ type BookPageData = {
     amazon_url: string,
     bn_url: string,
     playlist_url: string,
-    goodreads_url: string,
     id: string,
     media: StaticImageData[]
 }

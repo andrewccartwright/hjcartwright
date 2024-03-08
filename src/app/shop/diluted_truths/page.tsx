@@ -16,7 +16,6 @@ const DilutedTruths = (props: {}) => {
         amazon_url: "https://www.amazon.com/Diluted-Truths-Advocates-Book-1-ebook/dp/B0CV4SSZJK?ref_=ast_author_mpb",
         bn_url: "",
         playlist_url: "",
-        goodreads_url: "https://www.goodreads.com/book/show/207672080-diluted-truths",
         id: "diluted_truths",
         media: [image1, image2, image3, image4, image5]
     }
