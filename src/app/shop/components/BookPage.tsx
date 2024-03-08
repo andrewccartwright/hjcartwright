@@ -25,9 +25,6 @@ const BookPage = (props: { data: BookPageData }) => {
                         {
                             data.playlist_url !== "" && <a className="page-links" href={data.playlist_url} target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Playlist</button></a>
                         }
-                        {
-                            data.goodreads_url !== "" && <a className="page-links" href={data.goodreads_url} target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Goodreads</button></a>
-                        }
                     </div>
                 </div>
 
