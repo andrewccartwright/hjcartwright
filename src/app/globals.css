@@ -1,6 +1,10 @@
 body {
   background-color: #EBEEF0;
   white-space: pre-line;
+  background-image: url("./assets/images/background.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .btn-primary, .btn-primary:scope, 

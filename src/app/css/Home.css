@@ -47,14 +47,6 @@
     list-style-position: inside;
 }
 
-main {
-    background-image: url("../assets/images/background.png");
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-
 @media (max-width: 850px) {
     .home-section {
         width: 95vw;
