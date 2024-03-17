@@ -7,7 +7,7 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-bottom: 25vh;
+    /* margin-bottom: 10vh; */
 }
 
 #new-release-text-container {
@@ -45,6 +45,13 @@
     padding-left: 0;
     margin-top: -2vh;
     list-style-position: inside;
+}
+
+main {
+    background-image: url("../assets/images/new_background.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 
