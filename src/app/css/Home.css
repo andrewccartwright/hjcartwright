@@ -48,7 +48,7 @@
 }
 
 main {
-    background-image: url("../assets/images/new_background.png");
+    background-image: url("../assets/images/background.png");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
