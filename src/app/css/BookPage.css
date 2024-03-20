@@ -10,6 +10,12 @@
     font-size: 30px;
 }
 
+.book-page-wrapper {
+    position: relative;
+    z-index: 100;
+    margin-bottom: 160px;
+}
+
 .book-page-container {
     width: 100vw;
     display: flex;

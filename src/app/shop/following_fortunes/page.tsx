@@ -13,7 +13,11 @@ const FollowingFortunes = (props: {}) => {
         media: []
     }
 
-    return <BookPage data={data} />
+    return (
+        <div className="book-page-wrapper">
+            <BookPage data={data} />
+        </div>
+    )
 }
 
 export default FollowingFortunes;
