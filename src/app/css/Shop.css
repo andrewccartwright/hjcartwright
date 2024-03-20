@@ -46,6 +46,7 @@
 .book-name {
     text-align: center;
     width: 200px;
+    color: white;
     font-family: Montserrat;
     font-size: 14px;
     text-wrap: pretty;
