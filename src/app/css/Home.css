@@ -1,3 +1,7 @@
+#home {
+    overflow-y: scroll;
+}
+
 .home-section {
     background-color: white;
     width: 75vw;
@@ -7,7 +11,9 @@
     display: flex;
     justify-content: space-around;
     align-items: center;
-    /* margin-bottom: 10vh; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 6vh;
 }
 
 #new-release-text-container {

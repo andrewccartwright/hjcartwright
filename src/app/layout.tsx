@@ -5,6 +5,8 @@ import '@fortawesome/fontawesome-svg-core/styles.css';
 import "./globals.css";
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";
+import Image from "next/image";
+import background from "./assets/images/background.png";
 
 const inter = Inter({ subsets: ["latin"] });
 
@@ -22,15 +24,18 @@ export default function RootLayout({
     <html lang="en">
       <body className={inter.className}>
         <Navbar />
+        <div id="background-wrapper">
+          <Image
+            src={background}
+            alt="Background trees"
+            quality="100"
+            layout="fill"
+            placeholder="blur"
+          />
+        </div>
         {children}
         <Footer />
       </body>
     </html>
   );
 }
-
-// Home page - newest release, welcome note, 
-// Connect (social media)
-// About
-// Shop
-// Contact

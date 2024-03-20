@@ -1,11 +1,14 @@
 #contact-form-container {
     margin-top: 3vh;
+    margin-bottom: 160px;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
     justify-content: center;
     font-family: Montserrat;
+    position: relative;
+    z-index: 100;
 }
 
 .form-item {
