@@ -1,6 +1,5 @@
 import Book from "./Book";
 import NewRelease from "./NewRelease";
-import Welcome from "./Welcome";
 import dilutedTruths from "../../assets/images/diluted_truths.jpg";
 
 const HomePage = (props: {}) => {
@@ -14,7 +13,6 @@ const HomePage = (props: {}) => {
     return (
         <div id="home">
             <NewRelease book={book} />
-            {/* <Welcome /> */}
         </div>
     )
 }

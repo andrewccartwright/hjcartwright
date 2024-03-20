@@ -1,10 +1,23 @@
 body {
-  background-color: #EBEEF0;
-  white-space: pre-line;
-  background-image: url("./assets/images/background.png");
-  background-position: center;
-  background-size: cover;
-  background-repeat: no-repeat;
+  overflow-y: scroll;
+}
+
+#background-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 150px;
+  pointer-events: none;
+}
+
+main {
+  margin-bottom: 20vh;
+  height: 100%;
+  width: 100vw;
+  position: relative;
+  z-index: 100;
 }
 
 .btn-primary, .btn-primary:scope, 

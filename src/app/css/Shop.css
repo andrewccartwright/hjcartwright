@@ -4,6 +4,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    position: relative;
+    z-index: 100;
+    overflow-y: scroll;
 }
 
 #shop-links-section {
@@ -42,9 +45,10 @@
 
 .book-name {
     text-align: center;
-    color: white;
+    width: 200px;
     font-family: Montserrat;
     font-size: 14px;
+    text-wrap: pretty;
 }
 
 @media (max-width: 800px) {
