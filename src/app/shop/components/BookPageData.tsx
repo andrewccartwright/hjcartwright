@@ -3,9 +3,7 @@ import { StaticImageData } from "next/image";
 type BookPageData = {
     image: StaticImageData,
     summary: string,
-    amazon_url: string,
-    bn_url: string,
-    playlist_url: string,
+    links: LinkData[],
     id: string,
     media: StaticImageData[]
 }

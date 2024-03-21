@@ -7,8 +7,6 @@ import '../../css/BookPage.css';
 const BookPage = (props: { data: BookPageData }) => {
     const { data } = props;
 
-    const links: string[] = [data.amazon_url, data.bn_url, data.playlist_url]
-
     return (
         <div className="book-page-container">
             <div id={data.id} className="book-panel">
@@ -17,13 +15,16 @@ const BookPage = (props: { data: BookPageData }) => {
 
                     <div id="links-section">
                         {
-                            data.amazon_url !== "" && <a className="page-links" href={data.amazon_url} target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Amazon</button></a>
-                        }
-                        {
-                            data.bn_url !== "" && <a className="page-links" href={data.bn_url} target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Barnes & Noble</button></a>
-                        }
-                        {
-                            data.playlist_url !== "" && <a className="page-links" href={data.playlist_url} target="_blank" rel="noreferrer"><button type="button" className='book-page-buttons btn btn-primary'>Playlist</button></a>
+                            data.links.map((link, i) => {
+                                return (
+                                    <a key={i} className="page-links" href={link.url} target="_blank" rel="noreferrer">
+                                        <button type="button" className='book-page-buttons btn btn-primary'>
+                                            {link.name}
+                                        </button>
+                                    </a>
+
+                                )
+                            })
                         }
                     </div>
                 </div>

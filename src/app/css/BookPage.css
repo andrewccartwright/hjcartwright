@@ -39,8 +39,11 @@
 #links-section {
     text-align: center;
     margin-top: 3vh;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: column;
+    width: 75%;
 }
 
 #book-image {
@@ -77,17 +80,19 @@
     font-family: MontserratBold;
 }
 
-.book-page-buttons {
+.book-page-buttons, .book-page-buttons:link, .book-page-buttons:focus, .book-page-buttons:scope, .book-page-buttons:visited, .book-page-buttons:active {
     background-color: #EBEEF0;
     color: #0E5D63;
+    margin: 5px;
+    width: 100%;
 }
 
-.book-page-buttons:link, .book-page-buttons:scope, .book-page-buttons:focus, .book-page-buttons:visited, .book-page-buttons:hover, .book-page-buttons:active, .book-page-buttons:active:hover {
+.book-page-buttons:hover, .book-page-buttons:active:hover {
     background-color: #869CAD;
     color: #0E5D63;
 }
 
-.page-links, .page-links:link, .page-links:visited, .page-links:hover, .page-links:active, .page-links:active:hover{
+.page-links, .page-links:link, .page-links:scope, .page-links:visited, .page-links:hover, .page-links:active, .page-links:active:hover {
     color: #0E5D63;
     font-family: Montserrat;
 }
@@ -116,6 +121,16 @@
 
     #media-section {
         flex-direction: column;
+    }
+
+    #left-side {
+        /* width: 100%; */
+        display: flex;
+        flex-direction: row;
+    }
+
+    #links-section {
+        margin-left: 5vw;
     }
     
     .media-image {
