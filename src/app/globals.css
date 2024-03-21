@@ -13,6 +13,10 @@ body {
   pointer-events: none;
 }
 
+.title {
+  font-size: 30px;
+}
+
 main {
   margin-bottom: 20vh;
   height: 100%;

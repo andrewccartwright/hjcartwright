@@ -31,7 +31,7 @@ const medias: Media[] = [
 const Connect = (props: {}) => {
     return (
         <div id="connect-container">
-            <h2 id="connect-title">Connect With Me</h2>
+            <h2 id="connect-title" className="title">Connect With Me</h2>
 
             <div className="media-links-section">
             {
