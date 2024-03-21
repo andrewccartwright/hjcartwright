@@ -6,9 +6,7 @@ const FollowingFortunes = (props: {}) => {
     const data: BookPageData = {
         image: followingFortunes,
         summary: "<strong id='following_fortunes_text'>Coming Soon!</strong>",
-        amazon_url: "",
-        bn_url: "",
-        playlist_url: "",
+        links: [],
         id: "following_fortunes",
         media: []
     }
