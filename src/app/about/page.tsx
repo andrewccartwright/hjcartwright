@@ -15,7 +15,7 @@ const About = (props: {}) => {
                     alt="Pictures of H.J. Cartwright" />
 
                 <div id="about-me-text">
-                    <h1 id="about-me-title">About</h1>
+                    <h1 id="about-me-title" className="title">About</h1>
                     <p>I was born and raised in a small town in Utah. With that comes a hick accent and a million catch-phrases. I currently live with my husband, our two cats and an unnecessary amount of house plants.</p>
                     <p>I hold a BS in Political Science as well as minors in Marketing and Management. I did most of my college career during the pandemic and was able to finish my degree at only twenty years old.</p>
                     <p>Life caught up to me and I took a moment to slow down. During that time I fell back in love with reading and it struck the need to create so I began writing. Before I knew it, I finished my first book, Diluted Truths.</p>
