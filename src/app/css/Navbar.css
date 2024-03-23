@@ -49,9 +49,9 @@
     color: #0E5D63;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     #navbar-section {
-        width: 95vw;
+        width: 80vw;
     }
 
     #nav-links-section {

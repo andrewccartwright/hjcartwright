@@ -47,10 +47,19 @@
     z-index: 1;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 1200px) {
     #title-container {
-        width: 95vw;
-        height: 10vh;
+        height: 85vh;
+    }
+
+    #about-me-text {
+        margin-top: 3vh;
+    }
+}
+
+@media (max-width: 850px) {
+    #title-container {
+        width: 80vw;
     }
 
     #about-me-section {
@@ -62,11 +71,8 @@
     #about-me-text {
         width: 80vw;
         margin-left: 0;
-        margin-top: 3vh;
+        /* margin-top: 3vh; */
+        background-color: white;
+        padding: 5vw;
     }
-/* 
-    #about-me-image {
-        max-width: 200px;
-        max-height: 450px;
-    } */
 }
