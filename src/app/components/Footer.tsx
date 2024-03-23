@@ -43,7 +43,7 @@ const Footer = () => {
                                 }
                                 {
                                     media.media_type === "VIDEO" &&
-                                    <video height={150}>
+                                    <video height={150} autoPlay muted playsInline>
                                         <source src={media.media_url} type="video/mp4" />
                                         Your browser does not support the video tag.
                                     </video>
