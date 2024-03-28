@@ -18,16 +18,20 @@ const Footer = () => {
         }
     }, [mediaList.length]);
 
+    /**
+     * This function asynchronously fetches Instagram posts using the axios library to make a GET request to the specified URL.
+     * Upon a successful request, it logs the response data to the console, updates the mediaList state with the fetched data,
+     * and sets the showPosts state to true to indicate that posts are ready to be displayed.
+     * If the request fails, it catches the error and logs it to the console.
+     */
     const getPosts = async () => {
-        await axios.get(url)
-            .then((res) => {
-                console.log(res.data.data);
-                setMediaList(Array.from(res.data.data));
-                setShowPosts(true);
-            })
-            .catch((err) => {
-                console.log(err);
-            })
+        try {
+            const response = await axios.get(url);
+            setMediaList(Array.from(response.data.data));
+            setShowPosts(true);
+        } catch (error) {
+            console.log(error);
+        }
     }
 
     return (
