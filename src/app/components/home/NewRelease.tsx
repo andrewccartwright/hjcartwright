@@ -4,7 +4,6 @@ import Book from './Book';
 
 const NewRelease = (props: {book: Book}) => {
     const book : Book = props.book;
-    const sizeMult = 0.3
 
     return (
         <div id="new-release-section" className="home-section">
