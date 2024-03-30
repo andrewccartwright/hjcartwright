@@ -24,6 +24,10 @@
     font-family: Garet;
 }
 
+#book-name {
+    white-space: pre-wrap;
+}
+
 #book-information {
     font-family: Montserrat;
 }
