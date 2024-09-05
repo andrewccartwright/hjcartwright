@@ -82,18 +82,18 @@
 
 .book-page-buttons, .book-page-buttons:link, .book-page-buttons:focus, .book-page-buttons:scope, .book-page-buttons:visited, .book-page-buttons:active {
     background-color: #EBEEF0;
-    color: rgb(145, 53, 162);
+    color: #0E5D63;
     margin: 5px;
     width: 100%;
 }
 
 .book-page-buttons:hover, .book-page-buttons:active:hover {
     background-color: #869CAD;
-    color: rgb(145, 53, 162);
+    color: #0E5D63;
 }
 
 .page-links, .page-links:link, .page-links:scope, .page-links:visited, .page-links:hover, .page-links:active, .page-links:active:hover {
-    color: rgb(145, 53, 162);
+    color: #0E5D63;
     font-family: Montserrat;
 }
 
