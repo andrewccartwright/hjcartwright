@@ -13,7 +13,7 @@ const HomePage = (props: {}) => {
 
     const book: Book = {
         name: "Following Fortunes\nThe Advocates: Book Two",
-        tropes: ["7 Year Age Gap", "Dual POV", "Slow Burn", "Sunshine x Grumpy", "Forbidden Romance"],
+        tropes: ["He Falls First", "Marriage of Convenience", "Best Friend's Sister", "Romantic Suspense", "Single Mom"],
         url: "/shop/following_fortunes",
         cover_image: followingFortunes
     }
