@@ -46,7 +46,7 @@
 }
 
 .nav-links:active, .nav-links:hover, .nav-links:active:hover {
-    color: #0E5D63;
+    color: rgb(145, 53, 162);
 }
 
 @media (max-width: 850px) {

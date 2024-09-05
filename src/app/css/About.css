@@ -42,8 +42,8 @@
 #about-me-image {
     width: auto;
     height: auto;
-    aspect-ratio: 540 / 960;
-    max-width: 30%;
+    aspect-ratio: 1080 / 1920;
+    max-width: 25%;
     z-index: 1;
 }
 
