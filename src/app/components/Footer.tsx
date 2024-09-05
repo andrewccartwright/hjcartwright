@@ -5,7 +5,7 @@ import { useEffect, useState } from "react";
 import '../css/Footer.css';
 import Image from "next/image";
 
-const access_token = 'IGQWROSXNSekFuYzR3WHp3Y1MxOTl3QVJWandZAU2ZAURldram10QklWeWZAXV3ljd004aTcxc0ZAacjNIODRqU3NicGo4bUxkeVZAIeVh6dXpwdy05VksxSS1pLWc5UW8xV0VMVThzLVQ5bkdPUDBENnJ2cFVxRWd6OHMZD';
+const access_token = 'IGQWROTkYwZADBiU2RxTXRoZA19tVWhZAQzNVZAllCeW1hTGZAfdHF1NjBjRVo3UzJHa3ROVVVtUHJuT3RFYmRfTk4xT1dsT0dvc2hPZA284RHgwcUw2Qjg5RkpITEE5d0xBSDVGUDlWemVBaTRzQm1odldFTVk0bDhnNDgZD';
 const url = `https://graph.instagram.com/me/media?fields=permalink,caption,media_type,media_url&access_token=${access_token}`;
 
 const Footer = () => {
