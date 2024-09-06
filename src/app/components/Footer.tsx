@@ -25,7 +25,8 @@ const Footer = () => {
      */
     const getPosts = async () => {
         try {
-            const access_token = await axios.get(backendUrl);
+            const res = await axios.get(backendUrl);
+            const access_token = res.data;
             const url = `https://graph.instagram.com/me/media?fields=permalink,caption,media_type,media_url&access_token=${access_token}`;
             const response = await axios.get(url);
             setMediaList(Array.from(response.data.data));

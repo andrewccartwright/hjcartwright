@@ -1,7 +1,5 @@
-import Link from "next/link";
 import dilutedTruths from "../assets/images/diluted_truths.jpg";
 import followingFortunes from '../assets/images/following_fortunes.png';
-import Image from "next/image";
 import '../css/Shop.css';
 import ShopLink from "./components/ShopLink";
 import Book from "../components/home/Book";
