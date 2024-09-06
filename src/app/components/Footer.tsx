@@ -5,8 +5,7 @@ import { useEffect, useState } from "react";
 import '../css/Footer.css';
 import Image from "next/image";
 
-const access_token = 'IGQWROTkYwZADBiU2RxTXRoZA19tVWhZAQzNVZAllCeW1hTGZAfdHF1NjBjRVo3UzJHa3ROVVVtUHJuT3RFYmRfTk4xT1dsT0dvc2hPZA284RHgwcUw2Qjg5RkpITEE5d0xBSDVGUDlWemVBaTRzQm1odldFTVk0bDhnNDgZD';
-const url = `https://graph.instagram.com/me/media?fields=permalink,caption,media_type,media_url&access_token=${access_token}`;
+const backendUrl = 'https://disturbed-sidoney-hj-cartwright-463de8d1.koyeb.app/api_key';
 
 const Footer = () => {
     const [mediaList, setMediaList] = useState<InstagramPost[]>([]);
@@ -26,6 +25,9 @@ const Footer = () => {
      */
     const getPosts = async () => {
         try {
+            const access_token = await axios.get(backendUrl);
+            const url = `https://graph.instagram.com/me/media?fields=permalink,caption,media_type,media_url&access_token=${access_token}`;
+
             const response = await axios.get(url);
             setMediaList(Array.from(response.data.data));
             setShowPosts(true);
