@@ -27,13 +27,13 @@ main {
 
 .btn-primary, .btn-primary:scope, 
 .btn-primary:link, .btn-primary:focus {
-  background-color: #022D25;
-  border: #022D25;
+  background-color: rgb(43, 14, 49);
+  border: rgb(43, 14, 49);
 }
 
 .btn-primary:active:hover, .btn-primary:hover, .btn-primary:active {
-  background-color: #0E5D63;
-  border: #0E5D63;
+  background-color: rgb(145, 53, 162);
+  border: rgb(145, 53, 162);
 }
 
 a {
@@ -43,7 +43,7 @@ a {
 }
 
 a:active, a:hover, a:active:hover {
-  color: #0E5D63;
+  color: rgb(145, 53, 162);
 }
 
 @font-face {

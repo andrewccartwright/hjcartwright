@@ -9,13 +9,16 @@ import Book from "../components/home/Book";
 const Shop = (props: {}) => {
     const books: Book[] = [
         {
-            "name": "Diluted Truths\nThe Advocates: Book One",
+            "name": `Diluted Truths<br>
+            The Advocates: Book One`,
             "tropes": ["7 Year Age Gap", "Dual POV", "Slow Burn", "Sunshine x Grumpy", "Forbidden Romance"],
             "url": "/shop/diluted_truths",
             "cover_image": dilutedTruths
         },
         {
-            "name": "Following Fortunes\nThe Advocates: Book Two",
+            "name": `Following Fortunes
+            <br>
+            The Advocates: Book Two`,
             "tropes": [],
             "url": "/shop/following_fortunes",
             "cover_image": followingFortunes

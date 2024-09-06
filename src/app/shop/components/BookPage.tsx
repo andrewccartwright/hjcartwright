@@ -18,7 +18,7 @@ const BookPage = (props: { data: BookPageData }) => {
                             data.links.map((link, i) => {
                                 return (
                                     <a key={i} className="page-links" href={link.url} target="_blank" rel="noreferrer">
-                                        <button type="button" className='book-page-buttons btn btn-primary'>
+                                        <button type="button" className={`book-page-buttons ${data.id} btn btn-primary`}>
                                             {link.name}
                                         </button>
                                     </a>

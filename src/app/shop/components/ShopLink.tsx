@@ -30,7 +30,7 @@ const ShopLink = (props: {book: Book}) => {
             <Link href={book.url} onMouseEnter={toggleVisibility} onMouseLeave={toggleVisibility}>
                 <Image className="shop-links" src={book.cover_image} alt="Book Cover" priority={true} />
                 <p className="click-me">Click Here</p>
-                <p className="book-name">{book.name}</p>
+                <p className="book-name" dangerouslySetInnerHTML={{__html: book.name}}></p>
             </Link>
         </div>
     )

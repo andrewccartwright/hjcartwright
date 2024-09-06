@@ -82,12 +82,22 @@
 
 .book-page-buttons, .book-page-buttons:link, .book-page-buttons:focus, .book-page-buttons:scope, .book-page-buttons:visited, .book-page-buttons:active {
     background-color: #EBEEF0;
-    color: #0E5D63;
+    color: rgb(145, 53, 162);
     margin: 5px;
     width: 100%;
 }
 
 .book-page-buttons:hover, .book-page-buttons:active:hover {
+    background-color: #869CAD;
+    color: rgb(145, 53, 162);
+}
+
+.diluted_truths, .diluted_truths:link, .diluted_truths:focus, .diluted_truths:scope, .diluted_truths:visited, .diluted_truths:active {
+    background-color: #EBEEF0;
+    color: #0E5D63;
+}
+
+.diluted_truths:hover, .diluted_truths:active:hover {
     background-color: #869CAD;
     color: #0E5D63;
 }
@@ -106,12 +116,23 @@
 @media (max-width: 900px) {
     .book-panel {
         flex-direction: column;
-        align-items: flex-start;
-        padding-right: 2vw;
+        align-items: center;
+        padding: 5vw;
+    }
+
+    .book-page-buttons {
+        width: 50%;
+        min-width: 150px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .page-links {
+        width: 100%;
     }
 
     #book-image {
-        width: 30vw;
+        width: 50vw;
     }
 
     #book-summary {
@@ -124,13 +145,10 @@
     }
 
     #left-side {
-        /* width: 100%; */
+        width: 100%;
         display: flex;
-        flex-direction: row;
-    }
-
-    #links-section {
-        margin-left: 5vw;
+        flex-direction: column;
+        align-items: center;
     }
     
     .media-image {

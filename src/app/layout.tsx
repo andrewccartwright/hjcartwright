@@ -4,9 +4,9 @@ import 'bootstrap/dist/css/bootstrap.css';
 import '@fortawesome/fontawesome-svg-core/styles.css';
 import "./globals.css";
 import Navbar from "./components/Navbar";
-import Footer from "./components/Footer";
 import Image from "next/image";
-import background from "./assets/images/background.png";
+import background from "./assets/images/new_background.png";
+import Footer from "./components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 
