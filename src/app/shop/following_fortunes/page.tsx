@@ -30,7 +30,20 @@ const FollowingFortunes = (props: {}) => {
         the shadows we were only now bringing to light?
         <br><br>
         `,
-        links: [],
+        links: [
+            {
+                name: "Amazon",
+                url: "https://www.amazon.com/Following-Fortunes-Advocates-Book-2-ebook/dp/B0DGMBBH5Z?ref_=ast_author_dp"
+            },
+            {
+                name: "Goodreads",
+                url: "https://www.goodreads.com/book/show/218683426-following-fortunes"
+            },
+            {
+                name: "Playlist",
+                url: "https://music.apple.com/us/playlist/following-fortunes-official-chapter-playlist/pl.u-V9D7mX9h3DLZvZ"
+            }
+        ],
         id: "following_fortunes",
         media: []
     }
