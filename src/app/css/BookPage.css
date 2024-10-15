@@ -87,8 +87,13 @@
     width: 100%;
 }
 
-.book-page-buttons:hover, .book-page-buttons:active:hover {
+button.diluted_truths:hover, button.diluted_truths:active:hover {
     background-color: #869CAD;
+    color: #0E5D63;
+}
+
+button.following_fortunes:hover, button.following_fortunes:active:hover {
+    background-color: rgb(235, 219, 237);
     color: rgb(145, 53, 162);
 }
 
