@@ -45,7 +45,7 @@ const Footer = () => {
                             <a href={media.permalink} target="_blank">
                                 {
                                     (media.media_type === "IMAGE" || media.media_type === "CAROUSEL_ALBUM") &&
-                                        <Image src={media.media_url} alt={`Image ${index}`} width={150} height={150} priority={true} loading="eager" /> 
+                                        <Image src={media.media_url} alt={`Image ${index}`} width={150} height={150} loading="lazy" /> 
                                 }
                                 {
                                     media.media_type === "VIDEO" &&
