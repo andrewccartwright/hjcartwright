@@ -1,6 +1,11 @@
 import BookPageData from "../components/BookPageData";
-import followingFortunes from '../../assets/images/following_fortunes.png';
+import followingFortunes from '../../assets/images/following_fortunes/following_fortunes.png';
 import BookPage from "../components/BookPage";
+import image1 from '../../assets/images/following_fortunes/following_fortunes_1.png';
+import image2 from '../../assets/images/following_fortunes/following_fortunes_2.png';
+import image3 from '../../assets/images/following_fortunes/following_fortunes_3.png';
+import image4 from '../../assets/images/following_fortunes/following_fortunes_4.png';
+import image5 from '../../assets/images/following_fortunes/following_fortunes_5.png';
 
 const FollowingFortunes = (props: {}) => {
     const data: BookPageData = {
@@ -45,7 +50,7 @@ const FollowingFortunes = (props: {}) => {
             }
         ],
         id: "following_fortunes",
-        media: []
+        media: [image1, image2, image3, image4, image5]
     }
 
     return (

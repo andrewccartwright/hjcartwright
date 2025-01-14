@@ -6,6 +6,10 @@
     background-color: #AC90C0;
 }
 
+#fates_demise {
+    background-color: #29485F;
+}
+
 #following_fortunes_text {
     font-size: 30px;
 }
@@ -52,7 +56,7 @@
     max-width: 220.5px;
 }
 
-#media-section {
+.media-section {
     display: flex;
     width: 100%;
     margin-top: 3vh;
@@ -81,8 +85,8 @@
 }
 
 .book-page-buttons, .book-page-buttons:link, .book-page-buttons:focus, .book-page-buttons:scope, .book-page-buttons:visited, .book-page-buttons:active {
-    background-color: #EBEEF0;
-    color: rgb(145, 53, 162);
+    background-color: #BBC9DD;
+    color: #0C1731;
     margin: 5px;
     width: 100%;
 }
@@ -94,6 +98,16 @@ button.diluted_truths:hover, button.diluted_truths:active:hover {
 
 button.following_fortunes:hover, button.following_fortunes:active:hover {
     background-color: rgb(235, 219, 237);
+    color: rgb(145, 53, 162);
+}
+
+button.fates_demise:hover, button.fates_demise:active:hover {
+    background-color: #698198;
+    color: #0C1731;
+}
+
+.following_fortunes, .following_fortunes:link, .following_fortunes:focus, .following_fortunes:scope, .following_fortunes:visited, .following_fortunes:active {
+    background-color: #EBEEF0;
     color: rgb(145, 53, 162);
 }
 
@@ -145,7 +159,7 @@ button.following_fortunes:hover, button.following_fortunes:active:hover {
         margin-right: 2vw;
     }
 
-    #media-section {
+    .media-section {
         flex-direction: column;
     }
 

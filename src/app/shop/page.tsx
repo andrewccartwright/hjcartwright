@@ -1,5 +1,6 @@
-import dilutedTruths from "../assets/images/diluted_truths.jpg";
-import followingFortunes from '../assets/images/following_fortunes.png';
+import dilutedTruths from "../assets/images/diluted_truths/diluted_truths.jpg";
+import followingFortunes from '../assets/images/following_fortunes/following_fortunes.png';
+import fatesDemise from '../assets/images/fates_demise/fates_demise.jpg';
 import '../css/Shop.css';
 import ShopLink from "./components/ShopLink";
 import Book from "../components/home/Book";
@@ -20,6 +21,14 @@ const Shop = (props: {}) => {
             "tropes": [],
             "url": "/shop/following_fortunes",
             "cover_image": followingFortunes
+        },
+        {
+            "name": `Fate's Demise
+            <br>
+            The Advocates: Book Three`,
+            "tropes": ["Slow Burn", "Healing Heroine", "Tortured Past MMC", "Forced Proximity"],
+            "url": "/shop/fates_demise",
+            "cover_image": fatesDemise
         }
     ]
 

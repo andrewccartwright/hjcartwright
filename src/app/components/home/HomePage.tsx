@@ -1,7 +1,8 @@
 import Book from "./Book";
 import NewRelease from "./NewRelease";
-// import dilutedTruths from "../../assets/images/diluted_truths.jpg";
-import followingFortunes from "../../assets/images/following_fortunes.png";
+// import dilutedTruths from "../../assets/images/diluted_truths/diluted_truths.jpg";
+// import followingFortunes from "../../assets/images/following_fortunes/following_fortunes.png";
+import fatesDemise from "../../assets/images/fates_demise/fates_demise.jpg";
 
 const HomePage = (props: {}) => {
     // const book: Book = {
@@ -11,11 +12,18 @@ const HomePage = (props: {}) => {
     //     "cover_image": dilutedTruths
     // }
 
+    // const book: Book = {
+    //     name: "Following Fortunes\nThe Advocates: Book Two",
+    //     tropes: ["He Falls First", "Marriage of Convenience", "Best Friend's Sister", "Romantic Suspense", "Single Mom"],
+    //     url: "/shop/following_fortunes",
+    //     cover_image: followingFortunes
+    // }
+
     const book: Book = {
-        name: "Following Fortunes\nThe Advocates: Book Two",
-        tropes: ["He Falls First", "Marriage of Convenience", "Best Friend's Sister", "Romantic Suspense", "Single Mom"],
-        url: "/shop/following_fortunes",
-        cover_image: followingFortunes
+        "name": `Fate's Demise`,
+        "tropes": ["Slow Burn", "Healing Heroine", "Tortured Past MMC", "Forced Proximity"],
+        "url": "/shop/fates_demise",
+        "cover_image": fatesDemise
     }
 
     return (
