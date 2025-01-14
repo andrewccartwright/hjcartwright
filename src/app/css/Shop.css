@@ -12,6 +12,7 @@
 #shop-links-section {
     width: 80vw;
     display: flex;
+    justify-content: center;
 }
 
 .shop-links {
@@ -51,27 +52,36 @@
     text-wrap: pretty;
 }
 
-@media (max-width: 800px) {
+@media (max-width: 850px) {
     .shop-links {
-        width: 30vw;
+        width: 25vw;
         height: auto;
     }
 
     .book-name {
-        width: 30vw;
+        width: 25vw;
     }
 
     .click-me {
-        width: 30vw;
+        width: 25vw;
         font-size: 12px;
         margin-top: -12vh;
+    }
+
+    #shop-container {
+        width: 80vw;
+        justify-content: center;
+        align-items: center;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    #shop-links-section {
+        justify-content: start;
     }
 }
 
 @media (max-width: 550px) {
-    #shop-links-section {
-        justify-content: baseline;
-    }
 
     .book-name {
         font-size: 10px;
