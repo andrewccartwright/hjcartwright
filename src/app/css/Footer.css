@@ -3,7 +3,7 @@
     height: 150px;
     display: flex;
     bottom: 0px;
-    background-color: #2b0e31;
+    background-color: rgb(17,23,45);
     position: fixed;
     overflow-x: scroll;
     overflow-y: hidden;
